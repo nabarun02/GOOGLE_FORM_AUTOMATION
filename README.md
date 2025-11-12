@@ -37,14 +37,14 @@ The project follows a **clean wrapper-based design** to keep the code maintainab
 ## 📁 Project Structure
 ```
 src
-└── test
-├── java
-│ └── demo
-│ ├── TestCases.java # Main automated form test
-│ └── wrappers
-│ └── Wrappers.java # Utility wrapper methods
-└── resources
-└── testng.xml # TestNG suite configuration
+ └── test
+     ├── java
+     │   └── demo
+     │       ├── TestCases.java
+     │       └── wrappers
+     │           └── Wrappers.java
+     └── resources
+         └── testng.xml
 ```
 ---
 
