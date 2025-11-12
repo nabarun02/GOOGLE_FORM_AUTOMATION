@@ -35,7 +35,7 @@ The project follows a **clean wrapper-based design** to keep the code maintainab
 ---
 
 ## 📁 Project Structure
-
+```
 src
 └── test
 ├── java
@@ -45,23 +45,28 @@ src
 │ └── Wrappers.java # Utility wrapper methods
 └── resources
 └── testng.xml # TestNG suite configuration
-
+```
 ---
 
 ## ▶️ How to Run the Tests
 
 ### **1. Clone the repository**
+```
 git clone https://github.com/nabarun02/GOOGLE_FORM_AUTOMATION.git
 cd GOOGLE_FORM_AUTOMATION
+```
 
 ### **2. Run tests using Gradle**
+```
 ./gradlew test # Mac / Linux
 gradlew.bat test # Windows
+```
 
 ### **3. View Test Report**
+```
 After execution, open:
 build/reports/tests/test/index.html
-
+```
 ---
 
 ## 🧩 Key Automation Concepts Used
@@ -74,10 +79,10 @@ build/reports/tests/test/index.html
 ---
 
 ## ✨ Example Output
-
+```
 After submission, the script prints the success message returned by the form:
 Message after form submission: Thanks for your response, Automation Wizard!
-
+```
 ---
 
 ## 🤝 Contributing
